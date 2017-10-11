@@ -75,6 +75,7 @@ namespace BuildInSecurity
                 app.UseDeveloperExceptionPage();
                 app.UseDatabaseErrorPage();
                 app.UseBrowserLink();
+                
             }
             else
             {
@@ -86,7 +87,7 @@ namespace BuildInSecurity
             app.UseIdentity();
 
             // Add external authentication middleware below. To configure them please see https://go.microsoft.com/fwlink/?LinkID=532715
-            app.UseGoogleAuthentication(new GoogleOptions() { ClientId = "863411613962-cvpkgrbt6qk17nrtt84a6agvc2b1ohcc.apps.googleusercontent.com", ClientSecret = "Hke4c3DUXwYWvHCJxwuPW3BJ" }
+            app.UseGoogleAuthentication(new GoogleOptions() { ClientId = Configuration["clientId"], ClientSecret = Configuration["clientSecret"] }
                 );
             app.UseMvc(routes =>
             {
