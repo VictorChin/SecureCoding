@@ -23,5 +23,11 @@ namespace BuildInSecurity.Models.AccountViewModels
         [Display(Name = "Confirm password")]
         [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
         public string ConfirmPassword { get; set; }
+
+        [DataType(DataType.Text)]
+        [Display(Name = "Favorite Airport")]
+        [MaxLength(30,ErrorMessage =("30 char max airport name"))]
+        [Required]
+        public string FavoriteAirport { get; set; }
     }
 }
