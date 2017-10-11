@@ -16,7 +16,8 @@ C:\Users\Victor Chin\Source\SecureCodingRepo\SecureCoding\BuildInSecurity\bin\De
 C:\Users\Victor Chin\Source\SecureCodingRepo\SecureCoding\BuildInSecurity\bin\Debug\netcoreapp1.1\BuildInSecurity.pdb
 C:\Users\Victor Chin\Source\SecureCodingRepo\SecureCoding\BuildInSecurity\obj\Debug\netcoreapp1.1\BuildInSecurity.csprojResolveAssemblyReference.cache
 C:\Users\Victor Chin\Source\SecureCodingRepo\SecureCoding\BuildInSecurity\obj\Debug\netcoreapp1.1\BuildInSecurity.csproj.CoreCompileInputs.cache
-C:\Users\Victor Chin\Source\SecureCodingRepo\SecureCoding\BuildInSecurity\obj\Debug\netcoreapp1.1\UserSecretsAssemblyInfo.cs
 C:\Users\Victor Chin\Source\SecureCodingRepo\SecureCoding\BuildInSecurity\obj\Debug\netcoreapp1.1\BuildInSecurity.AssemblyInfo.cs
 C:\Users\Victor Chin\Source\SecureCodingRepo\SecureCoding\BuildInSecurity\obj\Debug\netcoreapp1.1\BuildInSecurity.dll
 C:\Users\Victor Chin\Source\SecureCodingRepo\SecureCoding\BuildInSecurity\obj\Debug\netcoreapp1.1\BuildInSecurity.pdb
+C:\Users\Victor Chin\Source\SecureCodingRepo\SecureCoding\BuildInSecurity\obj\Debug\netcoreapp1.1\UserSecretsAssemblyInfo.cs
+C:\Users\Victor Chin\Source\SecureCodingRepo\SecureCoding\BuildInSecurity\bin\Debug\netcoreapp1.1\localhost.pfx

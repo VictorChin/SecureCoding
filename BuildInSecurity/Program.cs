@@ -12,9 +12,14 @@ namespace BuildInSecurity
         public static void Main(string[] args)
         {
             var host = new WebHostBuilder()
-                .UseKestrel()
+                .UseKestrel(
+                options => {
+                    options.UseHttps("localhost.pfx", "YourSecurePassword");
+                    }
+                )
                 .UseContentRoot(Directory.GetCurrentDirectory())
                 .UseIISIntegration()
+                .UseUrls("https://localhost:44320")
                 .UseStartup<Startup>()
                 .UseApplicationInsights()
                 .Build();
