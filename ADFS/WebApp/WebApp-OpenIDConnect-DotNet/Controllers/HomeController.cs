@@ -13,7 +13,7 @@ namespace WebApp_OpenIDConnect_DotNet.Controllers
         {
             return View();
         }
-
+        [Authorize]
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
