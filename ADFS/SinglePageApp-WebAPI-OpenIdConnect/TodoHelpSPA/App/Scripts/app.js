@@ -2,7 +2,7 @@
 angular.module('todoApp', ['ngRoute','AdalAngular'])
     //http://slopjong.de/2015/09/01/set-global-constants-and-variables-in-angularjs/
     .constant('config', {
-        apiURL: "https://todolistapi.setspn.be.eu.org"
+        apiURL: "https://localhost:44321/"
     })
 
     .config(['$routeProvider', '$httpProvider', 'adalAuthenticationServiceProvider', function ($routeProvider, $httpProvider, adalProvider) {
@@ -28,12 +28,12 @@ angular.module('todoApp', ['ngRoute','AdalAngular'])
 
     adalProvider.init(
         {
-            instance: 'https://sts.setspn.be.eu.org/', 
+            instance: 'https://adfs.lordchinzilla.com/', 
             tenant: 'adfs',
-            clientId: '9e027f2c-41f2-4464-9774-bdad7bfdf653',
+            clientId: 'a5fceeb9-80cf-4bc5-b34f-840006dc4819',
             extraQueryParameter: 'nux=1',
             //cacheLocation: 'localStorage', // enable this for IE, as sessionStorage does not work for localhost.
-            endpoints: { "https://todolistapi.setspn.be.eu.org": "https://todolistapi.setspn.be.eu.org" }
+            endpoints: { "https://todolistapi.lordchinzilla.com": "https://localhost:44321/" }
         },
         $httpProvider
         );
