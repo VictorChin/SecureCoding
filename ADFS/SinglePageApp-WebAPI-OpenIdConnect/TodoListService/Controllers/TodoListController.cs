@@ -55,7 +55,7 @@ namespace TodoListService.Controllers
             }*/
 
             // A user's To Do list is keyed off of the NameIdentifier claim, which contains an immutable, unique identifier for the user.
-            Claim subject = ClaimsPrincipal.Current.FindFirst(ClaimTypes.NameIdentifier);
+            Claim subject = ClaimsPrincipal.Current.FindFirst(ClaimTypes.Name);
 
             return from todo in todoBag
                    where todo.Owner == subject.Value
@@ -72,7 +72,7 @@ namespace TodoListService.Controllers
 
             if (null != todo && !string.IsNullOrWhiteSpace(todo.Title))
             {
-                todoBag.Add(new TodoItem { Title = todo.Title, Owner = ClaimsPrincipal.Current.FindFirst(ClaimTypes.NameIdentifier).Value });
+                todoBag.Add(new TodoItem { Title = todo.Title, Owner = ClaimsPrincipal.Current.FindFirst(ClaimTypes.Name).Value });
             }
         }
     }
