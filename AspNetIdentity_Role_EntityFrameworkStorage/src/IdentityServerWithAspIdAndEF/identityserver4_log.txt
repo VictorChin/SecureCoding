@@ -1,0 +1,650 @@
+2017-10-12 23:10:27.531 -04:00 [Debug] Using "Identity.Application" as default scheme for authentication
+2017-10-12 23:10:27.565 -04:00 [Debug] Using "Identity.External" as default scheme for sign-in
+2017-10-12 23:10:27.567 -04:00 [Debug] Using "Identity.External" as default scheme for sign-out
+2017-10-12 23:10:27.569 -04:00 [Debug] Using "Identity.Application" as default scheme for challenge
+2017-10-12 23:10:27.571 -04:00 [Debug] Using "Identity.Application" as default scheme for forbid
+2017-10-12 23:10:28.128 -04:00 [Debug] Starting token cleanup
+2017-10-12 23:10:28.380 -04:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-10-12 23:10:28.400 -04:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-10-12 23:21:53.010 -04:00 [Debug] Using "Identity.Application" as default scheme for authentication
+2017-10-12 23:21:53.048 -04:00 [Debug] Using "Identity.External" as default scheme for sign-in
+2017-10-12 23:21:53.050 -04:00 [Debug] Using "Identity.External" as default scheme for sign-out
+2017-10-12 23:21:53.052 -04:00 [Debug] Using "Identity.Application" as default scheme for challenge
+2017-10-12 23:21:53.054 -04:00 [Debug] Using "Identity.Application" as default scheme for forbid
+2017-10-12 23:21:53.755 -04:00 [Error] An exception occurred in the database while saving changes for context type '"IdentityServerWithAspNetIdentity.Data.ApplicationDbContext"'."
+""Microsoft.EntityFrameworkCore.DbUpdateConcurrencyException: Database operation expected to affect 1 row(s) but actually affected 0 row(s). Data may have been modified or deleted since entities were loaded. See http://go.microsoft.com/fwlink/?LinkId=527962 for information on understanding and handling optimistic concurrency exceptions.
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ThrowAggregateUpdateConcurrencyException(Int32 commandIndex, Int32 expectedRowsAffected, Int32 rowsAffected)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.<ConsumeResultSetWithoutPropagationAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.<ConsumeAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.<ExecuteAsync>d__32.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.<ExecuteAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.<ExecuteAsync>d__7`2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<SaveChangesAsync>d__61.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<SaveChangesAsync>d__59.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.EntityFrameworkCore.DbContext.<SaveChangesAsync>d__48.MoveNext()"
+Microsoft.EntityFrameworkCore.DbUpdateConcurrencyException: Database operation expected to affect 1 row(s) but actually affected 0 row(s). Data may have been modified or deleted since entities were loaded. See http://go.microsoft.com/fwlink/?LinkId=527962 for information on understanding and handling optimistic concurrency exceptions.
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ThrowAggregateUpdateConcurrencyException(Int32 commandIndex, Int32 expectedRowsAffected, Int32 rowsAffected)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.<ConsumeResultSetWithoutPropagationAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.<ConsumeAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.<ExecuteAsync>d__32.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.<ExecuteAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.<ExecuteAsync>d__7`2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<SaveChangesAsync>d__61.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<SaveChangesAsync>d__59.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.EntityFrameworkCore.DbContext.<SaveChangesAsync>d__48.MoveNext()
+2017-10-12 23:22:24.086 -04:00 [Debug] Using "Identity.Application" as default scheme for authentication
+2017-10-12 23:22:24.125 -04:00 [Debug] Using "Identity.External" as default scheme for sign-in
+2017-10-12 23:22:24.127 -04:00 [Debug] Using "Identity.External" as default scheme for sign-out
+2017-10-12 23:22:24.129 -04:00 [Debug] Using "Identity.Application" as default scheme for challenge
+2017-10-12 23:22:24.130 -04:00 [Debug] Using "Identity.Application" as default scheme for forbid
+2017-10-12 23:22:51.070 -04:00 [Error] An exception occurred in the database while saving changes for context type '"IdentityServerWithAspNetIdentity.Data.ApplicationDbContext"'."
+""Microsoft.EntityFrameworkCore.DbUpdateConcurrencyException: Database operation expected to affect 1 row(s) but actually affected 0 row(s). Data may have been modified or deleted since entities were loaded. See http://go.microsoft.com/fwlink/?LinkId=527962 for information on understanding and handling optimistic concurrency exceptions.
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ThrowAggregateUpdateConcurrencyException(Int32 commandIndex, Int32 expectedRowsAffected, Int32 rowsAffected)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.<ConsumeResultSetWithoutPropagationAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.<ConsumeAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.<ExecuteAsync>d__32.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.<ExecuteAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.<ExecuteAsync>d__7`2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<SaveChangesAsync>d__61.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<SaveChangesAsync>d__59.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.EntityFrameworkCore.DbContext.<SaveChangesAsync>d__48.MoveNext()"
+Microsoft.EntityFrameworkCore.DbUpdateConcurrencyException: Database operation expected to affect 1 row(s) but actually affected 0 row(s). Data may have been modified or deleted since entities were loaded. See http://go.microsoft.com/fwlink/?LinkId=527962 for information on understanding and handling optimistic concurrency exceptions.
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ThrowAggregateUpdateConcurrencyException(Int32 commandIndex, Int32 expectedRowsAffected, Int32 rowsAffected)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.<ConsumeResultSetWithoutPropagationAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.<ConsumeAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.<ExecuteAsync>d__32.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.<ExecuteAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.<ExecuteAsync>d__7`2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<SaveChangesAsync>d__61.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<SaveChangesAsync>d__59.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.EntityFrameworkCore.DbContext.<SaveChangesAsync>d__48.MoveNext()
+2017-10-12 23:25:34.186 -04:00 [Debug] Using "Identity.Application" as default scheme for authentication
+2017-10-12 23:25:34.227 -04:00 [Debug] Using "Identity.External" as default scheme for sign-in
+2017-10-12 23:25:34.230 -04:00 [Debug] Using "Identity.External" as default scheme for sign-out
+2017-10-12 23:25:34.232 -04:00 [Debug] Using "Identity.Application" as default scheme for challenge
+2017-10-12 23:25:34.234 -04:00 [Debug] Using "Identity.Application" as default scheme for forbid
+2017-10-12 23:25:51.065 -04:00 [Debug] Starting token cleanup
+2017-10-12 23:25:51.358 -04:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-10-12 23:25:51.377 -04:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-10-12 23:31:41.867 -04:00 [Debug] Using "Identity.Application" as default scheme for authentication
+2017-10-12 23:31:41.906 -04:00 [Debug] Using "Identity.External" as default scheme for sign-in
+2017-10-12 23:31:41.908 -04:00 [Debug] Using "Identity.External" as default scheme for sign-out
+2017-10-12 23:31:41.910 -04:00 [Debug] Using "Identity.Application" as default scheme for challenge
+2017-10-12 23:31:41.913 -04:00 [Debug] Using "Identity.Application" as default scheme for forbid
+2017-10-12 23:31:42.661 -04:00 [Debug] Starting token cleanup
+2017-10-12 23:31:43.039 -04:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-10-12 23:31:43.062 -04:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-10-12 23:31:48.627 -04:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-10-12 23:31:48.630 -04:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-10-12 23:31:48.663 -04:00 [Error] An unhandled exception has occurred while executing the request
+System.InvalidOperationException: Unable to resolve service for type 'Microsoft.AspNetCore.Identity.RoleManager`1[Microsoft.AspNetCore.Identity.IdentityRole`1[System.String]]' while attempting to activate 'IdentityServerWithAspNetIdentity.Controllers.AccountController'.
+   at Microsoft.Extensions.Internal.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeFilterPipelineAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at IdentityServer4.Hosting.IdentityServerMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.<Invoke>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at IdentityServer4.Hosting.BaseUrlMiddleware.<Invoke>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2017-10-12 23:32:42.718 -04:00 [Debug] Using "Identity.Application" as default scheme for authentication
+2017-10-12 23:32:42.756 -04:00 [Debug] Using "Identity.External" as default scheme for sign-in
+2017-10-12 23:32:42.759 -04:00 [Debug] Using "Identity.External" as default scheme for sign-out
+2017-10-12 23:32:42.761 -04:00 [Debug] Using "Identity.Application" as default scheme for challenge
+2017-10-12 23:32:42.763 -04:00 [Debug] Using "Identity.Application" as default scheme for forbid
+2017-10-12 23:32:43.538 -04:00 [Debug] Starting token cleanup
+2017-10-12 23:32:43.887 -04:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-10-12 23:32:43.908 -04:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-10-12 23:32:48.709 -04:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-10-12 23:32:48.712 -04:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-10-12 23:33:13.642 -04:00 [Information] Clearing 0 tokens
+2017-10-12 23:33:25.819 -04:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-10-12 23:33:25.821 -04:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-10-12 23:33:26.060 -04:00 [Information] User created a new account with password.
+2017-10-12 23:33:26.860 -04:00 [Debug] Augmenting SignInContext
+2017-10-12 23:33:26.877 -04:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2017-10-12 23:33:26.887 -04:00 [Information] AuthenticationScheme: "Identity.Application" signed in.
+2017-10-12 23:33:26.889 -04:00 [Information] User created a new account with password.
+2017-10-12 23:33:26.991 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-12 23:33:26.994 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-12 23:33:30.726 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-12 23:33:30.728 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-12 23:33:36.993 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-12 23:33:36.995 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-12 23:33:43.683 -04:00 [Information] Clearing 0 tokens
+2017-10-12 23:34:13.725 -04:00 [Information] Clearing 0 tokens
+2017-10-12 23:36:03.091 -04:00 [Debug] Using "Identity.Application" as default scheme for authentication
+2017-10-12 23:36:03.135 -04:00 [Debug] Using "Identity.External" as default scheme for sign-in
+2017-10-12 23:36:03.136 -04:00 [Debug] Using "Identity.External" as default scheme for sign-out
+2017-10-12 23:36:03.136 -04:00 [Debug] Using "Identity.Application" as default scheme for challenge
+2017-10-12 23:36:03.136 -04:00 [Debug] Using "Identity.Application" as default scheme for forbid
+2017-10-12 23:36:03.711 -04:00 [Debug] Starting token cleanup
+2017-10-12 23:36:04.072 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-12 23:36:04.089 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-12 23:36:19.623 -04:00 [Debug] Request path "/.well-known/openid-configuration" matched to endpoint type "Discovery"
+2017-10-12 23:36:19.627 -04:00 [Debug] Endpoint enabled: "Discovery", successfully created handler: "IdentityServer4.Endpoints.DiscoveryEndpoint"
+2017-10-12 23:36:19.627 -04:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.DiscoveryEndpoint" for "/.well-known/openid-configuration"
+2017-10-12 23:36:19.631 -04:00 [Debug] Start discovery request
+2017-10-12 23:36:20.255 -04:00 [Debug] Found ["openid", "profile", "email", "api1"] as all scopes in database
+2017-10-12 23:36:20.429 -04:00 [Debug] Request path "/.well-known/openid-configuration/jwks" matched to endpoint type "Discovery"
+2017-10-12 23:36:20.430 -04:00 [Debug] Endpoint enabled: "Discovery", successfully created handler: "IdentityServer4.Endpoints.DiscoveryKeyEndpoint"
+2017-10-12 23:36:20.430 -04:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.DiscoveryKeyEndpoint" for "/.well-known/openid-configuration/jwks"
+2017-10-12 23:36:20.433 -04:00 [Debug] Start key discovery request
+2017-10-12 23:36:20.561 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-12 23:36:20.561 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-12 23:36:20.561 -04:00 [Debug] Request path "/connect/authorize" matched to endpoint type "Authorize"
+2017-10-12 23:36:20.565 -04:00 [Debug] Endpoint enabled: "Authorize", successfully created handler: "IdentityServer4.Endpoints.AuthorizeEndpoint"
+2017-10-12 23:36:20.565 -04:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.AuthorizeEndpoint" for "/connect/authorize"
+2017-10-12 23:36:20.570 -04:00 [Debug] Start authorize request
+2017-10-12 23:36:20.583 -04:00 [Debug] User in authorize request: "6416dae9-c0b4-4908-a2c9-1e0c33a580f6"
+2017-10-12 23:36:20.588 -04:00 [Debug] Start authorize request protocol validation
+2017-10-12 23:36:20.904 -04:00 [Debug] "mvc" found in database: True
+2017-10-12 23:36:20.910 -04:00 [Debug] Checking for PKCE parameters
+2017-10-12 23:36:20.912 -04:00 [Debug] No PKCE used.
+2017-10-12 23:36:20.950 -04:00 [Debug] Found ["openid", "profile"] identity scopes in database
+2017-10-12 23:36:21.062 -04:00 [Debug] Found ["api1"] API scopes in database
+2017-10-12 23:36:21.077 -04:00 [Debug] Found ["openid", "profile"] identity scopes in database
+2017-10-12 23:36:21.083 -04:00 [Debug] Found ["api1"] API scopes in database
+2017-10-12 23:36:21.092 -04:00 [Debug] Calling into custom validator: "IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator"
+2017-10-12 23:36:21.104 -04:00 [Information] ValidatedAuthorizeRequest
+"{
+  \"ClientId\": \"mvc\",
+  \"ClientName\": \"MVC Client\",
+  \"RedirectUri\": \"http://localhost:5002/signin-oidc\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:5002/signin-oidc\"
+  ],
+  \"SubjectId\": \"6416dae9-c0b4-4908-a2c9-1e0c33a580f6\",
+  \"ResponseType\": \"code id_token\",
+  \"ResponseMode\": \"form_post\",
+  \"GrantType\": \"hybrid\",
+  \"RequestedScopes\": \"openid profile api1 offline_access\",
+  \"State\": \"CfDJ8Cze-c_RJs5LmGY8-FJVJQlVDErAHGDfPri5xNokg7S2htM3_-AVwePFVo-JBiplcPdQ6sTVQviTnDkSf6VRbsXNFVnvm2m92y5bBLT2mVeUIVqFT1F_IXQYMwJV4dNZqgu2Fd0SCcvSVWucVbuFeO419a4b5ScW35y6Hwsjt75PchaL_wSX8-MlAkocfIgwQfvAcl6L1e3cs5pt-fush6yvkwoZIZVyIdWVHpBMWPZEb-3_XAVQ6eEp6Y8dCzzwkV3chW-m2P2OCqZKCOfX7-P_NQORm7ut2hK5Qtbw-eM5T5EuR2mDFcTUGr-Yn1_u319yWGL_voUTbWIaFaaFmFU\",
+  \"Nonce\": \"636434625804867596.YjE5OTc5ODAtYzgyNi00YmQ2LWFkNzItYmUzZjhiN2FmNDk0YTdhMDk5MGMtMDMxYy00ODg5LWJkNGEtMDJmZWUwYTljM2Ey\",
+  \"SessionId\": \"0c7a34d38414d1c856d994a6048fbd75\",
+  \"Raw\": {
+    \"client_id\": \"mvc\",
+    \"redirect_uri\": \"http://localhost:5002/signin-oidc\",
+    \"response_type\": \"code id_token\",
+    \"scope\": \"openid profile api1 offline_access\",
+    \"response_mode\": \"form_post\",
+    \"nonce\": \"636434625804867596.YjE5OTc5ODAtYzgyNi00YmQ2LWFkNzItYmUzZjhiN2FmNDk0YTdhMDk5MGMtMDMxYy00ODg5LWJkNGEtMDJmZWUwYTljM2Ey\",
+    \"state\": \"CfDJ8Cze-c_RJs5LmGY8-FJVJQlVDErAHGDfPri5xNokg7S2htM3_-AVwePFVo-JBiplcPdQ6sTVQviTnDkSf6VRbsXNFVnvm2m92y5bBLT2mVeUIVqFT1F_IXQYMwJV4dNZqgu2Fd0SCcvSVWucVbuFeO419a4b5ScW35y6Hwsjt75PchaL_wSX8-MlAkocfIgwQfvAcl6L1e3cs5pt-fush6yvkwoZIZVyIdWVHpBMWPZEb-3_XAVQ6eEp6Y8dCzzwkV3chW-m2P2OCqZKCOfX7-P_NQORm7ut2hK5Qtbw-eM5T5EuR2mDFcTUGr-Yn1_u319yWGL_voUTbWIaFaaFmFU\",
+    \"x-client-SKU\": \"ID_NET\",
+    \"x-client-ver\": \"2.1.4.0\"
+  }
+}"
+2017-10-12 23:36:21.153 -04:00 [Debug] Scopes contains offline_access, consent is required
+2017-10-12 23:36:21.153 -04:00 [Information] Showing consent: User has not yet consented
+2017-10-12 23:36:21.203 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-12 23:36:21.204 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-12 23:36:21.258 -04:00 [Debug] Start authorize request protocol validation
+2017-10-12 23:36:21.265 -04:00 [Debug] "mvc" found in database: True
+2017-10-12 23:36:21.266 -04:00 [Debug] Checking for PKCE parameters
+2017-10-12 23:36:21.266 -04:00 [Debug] No PKCE used.
+2017-10-12 23:36:21.271 -04:00 [Debug] Found ["openid", "profile"] identity scopes in database
+2017-10-12 23:36:21.277 -04:00 [Debug] Found ["api1"] API scopes in database
+2017-10-12 23:36:21.281 -04:00 [Debug] Found ["openid", "profile"] identity scopes in database
+2017-10-12 23:36:21.287 -04:00 [Debug] Found ["api1"] API scopes in database
+2017-10-12 23:36:21.287 -04:00 [Debug] Calling into custom validator: "IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator"
+2017-10-12 23:36:21.294 -04:00 [Debug] "mvc" found in database: True
+2017-10-12 23:36:21.302 -04:00 [Debug] Found ["openid", "profile"] identity scopes in database
+2017-10-12 23:36:21.379 -04:00 [Debug] Found ["api1"] API scopes in database
+2017-10-12 23:36:33.634 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-12 23:36:33.634 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-12 23:36:33.667 -04:00 [Debug] Start authorize request protocol validation
+2017-10-12 23:36:33.674 -04:00 [Debug] "mvc" found in database: True
+2017-10-12 23:36:33.674 -04:00 [Debug] Checking for PKCE parameters
+2017-10-12 23:36:33.675 -04:00 [Debug] No PKCE used.
+2017-10-12 23:36:33.679 -04:00 [Debug] Found ["openid", "profile"] identity scopes in database
+2017-10-12 23:36:33.685 -04:00 [Debug] Found ["api1"] API scopes in database
+2017-10-12 23:36:33.689 -04:00 [Debug] Found ["openid", "profile"] identity scopes in database
+2017-10-12 23:36:33.694 -04:00 [Debug] Found ["api1"] API scopes in database
+2017-10-12 23:36:33.694 -04:00 [Debug] Calling into custom validator: "IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator"
+2017-10-12 23:36:33.724 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-12 23:36:33.724 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-12 23:36:33.724 -04:00 [Debug] Request path "/connect/authorize/callback" matched to endpoint type "Authorize"
+2017-10-12 23:36:33.725 -04:00 [Debug] Endpoint enabled: "Authorize", successfully created handler: "IdentityServer4.Endpoints.AuthorizeCallbackEndpoint"
+2017-10-12 23:36:33.725 -04:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.AuthorizeCallbackEndpoint" for "/connect/authorize/callback"
+2017-10-12 23:36:33.733 -04:00 [Debug] Start authorize callback request
+2017-10-12 23:36:33.738 -04:00 [Debug] User in authorize request: "6416dae9-c0b4-4908-a2c9-1e0c33a580f6"
+2017-10-12 23:36:33.739 -04:00 [Debug] Start authorize request protocol validation
+2017-10-12 23:36:33.739 -04:00 [Information] Clearing 0 tokens
+2017-10-12 23:36:33.746 -04:00 [Debug] "mvc" found in database: True
+2017-10-12 23:36:33.746 -04:00 [Debug] Checking for PKCE parameters
+2017-10-12 23:36:33.746 -04:00 [Debug] No PKCE used.
+2017-10-12 23:36:33.751 -04:00 [Debug] Found ["openid", "profile"] identity scopes in database
+2017-10-12 23:36:33.757 -04:00 [Debug] Found ["api1"] API scopes in database
+2017-10-12 23:36:33.762 -04:00 [Debug] Found ["openid", "profile"] identity scopes in database
+2017-10-12 23:36:33.767 -04:00 [Debug] Found ["api1"] API scopes in database
+2017-10-12 23:36:33.768 -04:00 [Debug] Calling into custom validator: "IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator"
+2017-10-12 23:36:33.768 -04:00 [Information] ValidatedAuthorizeRequest
+"{
+  \"ClientId\": \"mvc\",
+  \"ClientName\": \"MVC Client\",
+  \"RedirectUri\": \"http://localhost:5002/signin-oidc\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:5002/signin-oidc\"
+  ],
+  \"SubjectId\": \"6416dae9-c0b4-4908-a2c9-1e0c33a580f6\",
+  \"ResponseType\": \"code id_token\",
+  \"ResponseMode\": \"form_post\",
+  \"GrantType\": \"hybrid\",
+  \"RequestedScopes\": \"openid profile api1 offline_access\",
+  \"State\": \"CfDJ8Cze-c_RJs5LmGY8-FJVJQlVDErAHGDfPri5xNokg7S2htM3_-AVwePFVo-JBiplcPdQ6sTVQviTnDkSf6VRbsXNFVnvm2m92y5bBLT2mVeUIVqFT1F_IXQYMwJV4dNZqgu2Fd0SCcvSVWucVbuFeO419a4b5ScW35y6Hwsjt75PchaL_wSX8-MlAkocfIgwQfvAcl6L1e3cs5pt-fush6yvkwoZIZVyIdWVHpBMWPZEb-3_XAVQ6eEp6Y8dCzzwkV3chW-m2P2OCqZKCOfX7-P_NQORm7ut2hK5Qtbw-eM5T5EuR2mDFcTUGr-Yn1_u319yWGL_voUTbWIaFaaFmFU\",
+  \"Nonce\": \"636434625804867596.YjE5OTc5ODAtYzgyNi00YmQ2LWFkNzItYmUzZjhiN2FmNDk0YTdhMDk5MGMtMDMxYy00ODg5LWJkNGEtMDJmZWUwYTljM2Ey\",
+  \"SessionId\": \"0c7a34d38414d1c856d994a6048fbd75\",
+  \"Raw\": {
+    \"client_id\": \"mvc\",
+    \"redirect_uri\": \"http://localhost:5002/signin-oidc\",
+    \"response_type\": \"code id_token\",
+    \"scope\": \"openid profile api1 offline_access\",
+    \"response_mode\": \"form_post\",
+    \"nonce\": \"636434625804867596.YjE5OTc5ODAtYzgyNi00YmQ2LWFkNzItYmUzZjhiN2FmNDk0YTdhMDk5MGMtMDMxYy00ODg5LWJkNGEtMDJmZWUwYTljM2Ey\",
+    \"state\": \"CfDJ8Cze-c_RJs5LmGY8-FJVJQlVDErAHGDfPri5xNokg7S2htM3_-AVwePFVo-JBiplcPdQ6sTVQviTnDkSf6VRbsXNFVnvm2m92y5bBLT2mVeUIVqFT1F_IXQYMwJV4dNZqgu2Fd0SCcvSVWucVbuFeO419a4b5ScW35y6Hwsjt75PchaL_wSX8-MlAkocfIgwQfvAcl6L1e3cs5pt-fush6yvkwoZIZVyIdWVHpBMWPZEb-3_XAVQ6eEp6Y8dCzzwkV3chW-m2P2OCqZKCOfX7-P_NQORm7ut2hK5Qtbw-eM5T5EuR2mDFcTUGr-Yn1_u319yWGL_voUTbWIaFaaFmFU\",
+    \"x-client-SKU\": \"ID_NET\",
+    \"x-client-ver\": \"2.1.4.0\"
+  }
+}"
+2017-10-12 23:36:33.773 -04:00 [Debug] Scopes contains offline_access, consent is required
+2017-10-12 23:36:33.780 -04:00 [Information] User consented to scopes: ["openid", "profile", "api1", "offline_access"]
+2017-10-12 23:36:33.782 -04:00 [Debug] User indicated to remember consent for scopes: ["openid", "profile", "api1", "offline_access"]
+2017-10-12 23:36:33.786 -04:00 [Debug] Client allows remembering consent, and consent given. Updating consent store for subject: "6416dae9-c0b4-4908-a2c9-1e0c33a580f6"
+2017-10-12 23:36:33.806 -04:00 [Debug] "GeR7GyvkPYEJGB+DTvWJN/XeU60BysmVgkvy8ljx2+M=" not found in database
+2017-10-12 23:36:33.857 -04:00 [Debug] Creating Hybrid Flow response.
+2017-10-12 23:36:33.881 -04:00 [Debug] "OORw9P2+NO61r9+TiSZaQ4pwJDhGSiclScvS8O/B+Iw=" not found in database
+2017-10-12 23:36:33.890 -04:00 [Debug] Creating Implicit Flow response.
+2017-10-12 23:36:33.900 -04:00 [Debug] Getting claims for identity token for subject: "6416dae9-c0b4-4908-a2c9-1e0c33a580f6" and client: "mvc"
+2017-10-12 23:36:33.902 -04:00 [Debug] In addition to an id_token, an access_token was requested. No claims other than sub are included in the id_token. To obtain more user claims, either use the user info endpoint or set AlwaysIncludeUserClaimsInIdToken on the client configuration.
+2017-10-12 23:36:33.941 -04:00 [Information] Authorize endpoint response
+"{
+  \"SubjectId\": \"6416dae9-c0b4-4908-a2c9-1e0c33a580f6\",
+  \"ClientId\": \"mvc\",
+  \"RedirectUri\": \"http://localhost:5002/signin-oidc\",
+  \"State\": \"CfDJ8Cze-c_RJs5LmGY8-FJVJQlVDErAHGDfPri5xNokg7S2htM3_-AVwePFVo-JBiplcPdQ6sTVQviTnDkSf6VRbsXNFVnvm2m92y5bBLT2mVeUIVqFT1F_IXQYMwJV4dNZqgu2Fd0SCcvSVWucVbuFeO419a4b5ScW35y6Hwsjt75PchaL_wSX8-MlAkocfIgwQfvAcl6L1e3cs5pt-fush6yvkwoZIZVyIdWVHpBMWPZEb-3_XAVQ6eEp6Y8dCzzwkV3chW-m2P2OCqZKCOfX7-P_NQORm7ut2hK5Qtbw-eM5T5EuR2mDFcTUGr-Yn1_u319yWGL_voUTbWIaFaaFmFU\",
+  \"Scope\": \"openid profile api1 offline_access\"
+}"
+2017-10-12 23:36:33.964 -04:00 [Debug] Augmenting SignInContext
+2017-10-12 23:36:33.970 -04:00 [Information] AuthenticationScheme: "Identity.Application" signed in.
+2017-10-12 23:36:34.408 -04:00 [Debug] Request path "/connect/token" matched to endpoint type "Token"
+2017-10-12 23:36:34.412 -04:00 [Debug] Endpoint enabled: "Token", successfully created handler: "IdentityServer4.Endpoints.TokenEndpoint"
+2017-10-12 23:36:34.412 -04:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.TokenEndpoint" for "/connect/token"
+2017-10-12 23:36:34.420 -04:00 [Debug] Start token request.
+2017-10-12 23:36:34.426 -04:00 [Debug] Start client validation
+2017-10-12 23:36:34.431 -04:00 [Debug] Start parsing Basic Authentication secret
+2017-10-12 23:36:34.435 -04:00 [Debug] Start parsing for secret in post body
+2017-10-12 23:36:34.436 -04:00 [Debug] Parser found secret: "PostBodySecretParser"
+2017-10-12 23:36:34.436 -04:00 [Debug] Secret id found: "mvc"
+2017-10-12 23:36:34.443 -04:00 [Debug] "mvc" found in database: True
+2017-10-12 23:36:34.451 -04:00 [Debug] Secret validator success: "HashedSharedSecretValidator"
+2017-10-12 23:36:34.452 -04:00 [Debug] Client validation success
+2017-10-12 23:36:34.457 -04:00 [Debug] Start token request validation
+2017-10-12 23:36:34.468 -04:00 [Debug] Start validation of authorization code token request
+2017-10-12 23:36:34.490 -04:00 [Debug] "OORw9P2+NO61r9+TiSZaQ4pwJDhGSiclScvS8O/B+Iw=" found in database: True
+2017-10-12 23:36:34.510 -04:00 [Debug] removing "OORw9P2+NO61r9+TiSZaQ4pwJDhGSiclScvS8O/B+Iw=" persisted grant from database
+2017-10-12 23:36:34.521 -04:00 [Debug] Validation of authorization code token request success
+2017-10-12 23:36:34.528 -04:00 [Information] Token request validation success
+"{
+  \"ClientId\": \"mvc\",
+  \"ClientName\": \"MVC Client\",
+  \"GrantType\": \"authorization_code\",
+  \"AuthorizationCode\": \"7986218423e7059cf285a30ebc190fecf9085ca2e7759208388b3a6726d5d81a\",
+  \"Raw\": {
+    \"client_id\": \"mvc\",
+    \"client_secret\": \"***REDACTED***\",
+    \"code\": \"7986218423e7059cf285a30ebc190fecf9085ca2e7759208388b3a6726d5d81a\",
+    \"grant_type\": \"authorization_code\",
+    \"redirect_uri\": \"http://localhost:5002/signin-oidc\"
+  }
+}"
+2017-10-12 23:36:34.549 -04:00 [Debug] "mvc" found in database: True
+2017-10-12 23:36:34.553 -04:00 [Debug] Found ["openid", "profile"] identity scopes in database
+2017-10-12 23:36:34.558 -04:00 [Debug] Found ["api1"] API scopes in database
+2017-10-12 23:36:34.569 -04:00 [Debug] Getting claims for access token for client: "mvc"
+2017-10-12 23:36:34.570 -04:00 [Debug] Getting claims for access token for subject: "6416dae9-c0b4-4908-a2c9-1e0c33a580f6"
+2017-10-12 23:36:34.683 -04:00 [Debug] Creating refresh token
+2017-10-12 23:36:34.683 -04:00 [Debug] Setting an absolute lifetime: 2592000
+2017-10-12 23:36:34.703 -04:00 [Debug] "IkfJ6ZOzfcmUQrfeFrKjtMn7YJtSQR3E2kHYZSqLyw0=" not found in database
+2017-10-12 23:36:34.714 -04:00 [Debug] "mvc" found in database: True
+2017-10-12 23:36:34.718 -04:00 [Debug] Found ["openid", "profile"] identity scopes in database
+2017-10-12 23:36:34.724 -04:00 [Debug] Found ["api1"] API scopes in database
+2017-10-12 23:36:34.725 -04:00 [Debug] Getting claims for identity token for subject: "6416dae9-c0b4-4908-a2c9-1e0c33a580f6" and client: "mvc"
+2017-10-12 23:36:34.725 -04:00 [Debug] In addition to an id_token, an access_token was requested. No claims other than sub are included in the id_token. To obtain more user claims, either use the user info endpoint or set AlwaysIncludeUserClaimsInIdToken on the client configuration.
+2017-10-12 23:36:34.731 -04:00 [Debug] Token request success.
+2017-10-12 23:36:34.773 -04:00 [Debug] Request path "/connect/userinfo" matched to endpoint type "Userinfo"
+2017-10-12 23:36:34.775 -04:00 [Debug] Endpoint enabled: "Userinfo", successfully created handler: "IdentityServer4.Endpoints.UserInfoEndpoint"
+2017-10-12 23:36:34.775 -04:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.UserInfoEndpoint" for "/connect/userinfo"
+2017-10-12 23:36:34.781 -04:00 [Debug] Start userinfo request
+2017-10-12 23:36:34.786 -04:00 [Debug] Bearer token found in header
+2017-10-12 23:36:34.810 -04:00 [Debug] "mvc" found in database: True
+2017-10-12 23:36:34.828 -04:00 [Debug] "mvc" found in database: True
+2017-10-12 23:36:34.832 -04:00 [Debug] Token validation success
+"{
+  \"ValidateLifetime\": true,
+  \"AccessTokenType\": \"Jwt\",
+  \"ExpectedScope\": \"openid\",
+  \"Claims\": {
+    \"nbf\": 1507865794,
+    \"exp\": 1507869394,
+    \"iss\": \"http://localhost:5000\",
+    \"aud\": [
+      \"http://localhost:5000/resources\",
+      \"api1\"
+    ],
+    \"client_id\": \"mvc\",
+    \"sub\": \"6416dae9-c0b4-4908-a2c9-1e0c33a580f6\",
+    \"auth_time\": 1507865606,
+    \"idp\": \"local\",
+    \"role\": [
+      \"Auditor\",
+      \"Admin\",
+      \"User\"
+    ],
+    \"name\": \"victor@objectmage.com\",
+    \"scope\": [
+      \"openid\",
+      \"profile\",
+      \"api1\",
+      \"offline_access\"
+    ],
+    \"amr\": \"pwd\"
+  }
+}"
+2017-10-12 23:36:34.838 -04:00 [Debug] Creating userinfo response
+2017-10-12 23:36:34.843 -04:00 [Debug] Scopes in access token: "openid profile api1 offline_access"
+2017-10-12 23:36:34.849 -04:00 [Debug] Found ["openid", "profile"] identity scopes in database
+2017-10-12 23:36:34.850 -04:00 [Debug] Requested claim types: "sub updated_at locale zoneinfo birthdate gender website picture preferred_username nickname middle_name given_name family_name name profile"
+2017-10-12 23:36:34.874 -04:00 [Information] Profile service returned to the following claim types: "sub preferred_username name"
+2017-10-12 23:36:34.875 -04:00 [Debug] End userinfo request
+2017-10-12 23:36:44.376 -04:00 [Debug] Request path "/.well-known/openid-configuration" matched to endpoint type "Discovery"
+2017-10-12 23:36:44.376 -04:00 [Debug] Endpoint enabled: "Discovery", successfully created handler: "IdentityServer4.Endpoints.DiscoveryEndpoint"
+2017-10-12 23:36:44.376 -04:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.DiscoveryEndpoint" for "/.well-known/openid-configuration"
+2017-10-12 23:36:44.377 -04:00 [Debug] Start discovery request
+2017-10-12 23:36:44.386 -04:00 [Debug] Found ["openid", "profile", "email", "api1"] as all scopes in database
+2017-10-12 23:36:44.458 -04:00 [Debug] Request path "/.well-known/openid-configuration/jwks" matched to endpoint type "Discovery"
+2017-10-12 23:36:44.459 -04:00 [Debug] Endpoint enabled: "Discovery", successfully created handler: "IdentityServer4.Endpoints.DiscoveryKeyEndpoint"
+2017-10-12 23:36:44.459 -04:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.DiscoveryKeyEndpoint" for "/.well-known/openid-configuration/jwks"
+2017-10-12 23:36:44.459 -04:00 [Debug] Start key discovery request
+2017-10-12 23:37:03.760 -04:00 [Information] Clearing 0 tokens
+2017-10-12 23:37:33.780 -04:00 [Information] Clearing 0 tokens
+2017-10-12 23:38:03.800 -04:00 [Information] Clearing 0 tokens
+2017-10-12 23:38:33.805 -04:00 [Information] Clearing 0 tokens
+2017-10-12 23:39:03.816 -04:00 [Information] Clearing 0 tokens
+2017-10-12 23:39:33.820 -04:00 [Information] Clearing 0 tokens
+2017-10-12 23:40:03.839 -04:00 [Information] Clearing 0 tokens
+2017-10-12 23:40:33.844 -04:00 [Information] Clearing 0 tokens
+2017-10-12 23:41:03.855 -04:00 [Information] Clearing 0 tokens
+2017-10-12 23:41:33.866 -04:00 [Information] Clearing 0 tokens
+2017-10-12 23:42:03.885 -04:00 [Information] Clearing 0 tokens
+2017-10-12 23:42:33.901 -04:00 [Information] Clearing 0 tokens
+2017-10-12 23:43:03.915 -04:00 [Information] Clearing 0 tokens
+2017-10-12 23:43:33.927 -04:00 [Information] Clearing 0 tokens
+2017-10-12 23:44:03.949 -04:00 [Information] Clearing 0 tokens
+2017-10-12 23:44:33.963 -04:00 [Information] Clearing 0 tokens
+2017-10-12 23:45:03.981 -04:00 [Information] Clearing 0 tokens
+2017-10-12 23:45:33.992 -04:00 [Information] Clearing 0 tokens
+2017-10-12 23:46:04.010 -04:00 [Information] Clearing 0 tokens
+2017-10-12 23:46:34.015 -04:00 [Information] Clearing 0 tokens
+2017-10-12 23:47:04.022 -04:00 [Information] Clearing 0 tokens
+2017-10-12 23:47:34.045 -04:00 [Information] Clearing 0 tokens
+2017-10-12 23:47:55.623 -04:00 [Debug] Using "Identity.Application" as default scheme for authentication
+2017-10-12 23:47:55.661 -04:00 [Debug] Using "Identity.External" as default scheme for sign-in
+2017-10-12 23:47:55.661 -04:00 [Debug] Using "Identity.External" as default scheme for sign-out
+2017-10-12 23:47:55.661 -04:00 [Debug] Using "Identity.Application" as default scheme for challenge
+2017-10-12 23:47:55.662 -04:00 [Debug] Using "Identity.Application" as default scheme for forbid
+2017-10-12 23:47:56.253 -04:00 [Debug] Starting token cleanup
+2017-10-12 23:47:56.514 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-12 23:47:56.533 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-12 23:48:06.746 -04:00 [Debug] Request path "/.well-known/openid-configuration" matched to endpoint type "Discovery"
+2017-10-12 23:48:06.750 -04:00 [Debug] Endpoint enabled: "Discovery", successfully created handler: "IdentityServer4.Endpoints.DiscoveryEndpoint"
+2017-10-12 23:48:06.751 -04:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.DiscoveryEndpoint" for "/.well-known/openid-configuration"
+2017-10-12 23:48:06.755 -04:00 [Debug] Start discovery request
+2017-10-12 23:48:07.379 -04:00 [Debug] Found ["openid", "profile", "email", "api1"] as all scopes in database
+2017-10-12 23:48:07.474 -04:00 [Debug] Request path "/.well-known/openid-configuration/jwks" matched to endpoint type "Discovery"
+2017-10-12 23:48:07.475 -04:00 [Debug] Endpoint enabled: "Discovery", successfully created handler: "IdentityServer4.Endpoints.DiscoveryKeyEndpoint"
+2017-10-12 23:48:07.475 -04:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.DiscoveryKeyEndpoint" for "/.well-known/openid-configuration/jwks"
+2017-10-12 23:48:07.478 -04:00 [Debug] Start key discovery request
+2017-10-12 23:48:26.308 -04:00 [Information] Clearing 0 tokens
+2017-10-12 23:48:56.332 -04:00 [Information] Clearing 0 tokens
+2017-10-12 23:49:26.342 -04:00 [Information] Clearing 0 tokens
+2017-10-12 23:49:56.360 -04:00 [Information] Clearing 0 tokens
+2017-10-12 23:50:26.379 -04:00 [Information] Clearing 0 tokens
+2017-10-12 23:50:56.388 -04:00 [Information] Clearing 0 tokens
+2017-10-12 23:51:04.565 -04:00 [Debug] Using "Identity.Application" as default scheme for authentication
+2017-10-12 23:51:04.609 -04:00 [Debug] Using "Identity.External" as default scheme for sign-in
+2017-10-12 23:51:04.610 -04:00 [Debug] Using "Identity.External" as default scheme for sign-out
+2017-10-12 23:51:04.610 -04:00 [Debug] Using "Identity.Application" as default scheme for challenge
+2017-10-12 23:51:04.610 -04:00 [Debug] Using "Identity.Application" as default scheme for forbid
+2017-10-12 23:51:05.125 -04:00 [Debug] Starting token cleanup
+2017-10-12 23:51:05.467 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-12 23:51:05.491 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-12 23:51:19.832 -04:00 [Debug] Request path "/.well-known/openid-configuration" matched to endpoint type "Discovery"
+2017-10-12 23:51:19.837 -04:00 [Debug] Endpoint enabled: "Discovery", successfully created handler: "IdentityServer4.Endpoints.DiscoveryEndpoint"
+2017-10-12 23:51:19.838 -04:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.DiscoveryEndpoint" for "/.well-known/openid-configuration"
+2017-10-12 23:51:19.841 -04:00 [Debug] Start discovery request
+2017-10-12 23:51:20.455 -04:00 [Debug] Found ["openid", "profile", "email", "api1"] as all scopes in database
+2017-10-12 23:51:20.545 -04:00 [Debug] Request path "/.well-known/openid-configuration/jwks" matched to endpoint type "Discovery"
+2017-10-12 23:51:20.546 -04:00 [Debug] Endpoint enabled: "Discovery", successfully created handler: "IdentityServer4.Endpoints.DiscoveryKeyEndpoint"
+2017-10-12 23:51:20.546 -04:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.DiscoveryKeyEndpoint" for "/.well-known/openid-configuration/jwks"
+2017-10-12 23:51:20.549 -04:00 [Debug] Start key discovery request
+2017-10-12 23:51:35.148 -04:00 [Information] Clearing 0 tokens
+2017-10-12 23:52:05.155 -04:00 [Information] Clearing 0 tokens
+2017-10-12 23:52:34.791 -04:00 [Debug] Using "Identity.Application" as default scheme for authentication
+2017-10-12 23:52:34.835 -04:00 [Debug] Using "Identity.External" as default scheme for sign-in
+2017-10-12 23:52:34.836 -04:00 [Debug] Using "Identity.External" as default scheme for sign-out
+2017-10-12 23:52:34.836 -04:00 [Debug] Using "Identity.Application" as default scheme for challenge
+2017-10-12 23:52:34.836 -04:00 [Debug] Using "Identity.Application" as default scheme for forbid
+2017-10-12 23:52:35.429 -04:00 [Debug] Starting token cleanup
+2017-10-12 23:52:35.639 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-12 23:52:35.659 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-12 23:53:05.459 -04:00 [Information] Clearing 0 tokens
+2017-10-12 23:53:35.483 -04:00 [Information] Clearing 0 tokens
+2017-10-12 23:54:05.501 -04:00 [Information] Clearing 0 tokens
+2017-10-12 23:54:35.506 -04:00 [Information] Clearing 0 tokens
+2017-10-12 23:54:43.367 -04:00 [Debug] Request path "/.well-known/openid-configuration" matched to endpoint type "Discovery"
+2017-10-12 23:54:43.371 -04:00 [Debug] Endpoint enabled: "Discovery", successfully created handler: "IdentityServer4.Endpoints.DiscoveryEndpoint"
+2017-10-12 23:54:43.372 -04:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.DiscoveryEndpoint" for "/.well-known/openid-configuration"
+2017-10-12 23:54:43.376 -04:00 [Debug] Start discovery request
+2017-10-12 23:54:43.977 -04:00 [Debug] Found ["openid", "profile", "email", "api1"] as all scopes in database
+2017-10-12 23:54:44.130 -04:00 [Debug] Request path "/.well-known/openid-configuration/jwks" matched to endpoint type "Discovery"
+2017-10-12 23:54:44.130 -04:00 [Debug] Endpoint enabled: "Discovery", successfully created handler: "IdentityServer4.Endpoints.DiscoveryKeyEndpoint"
+2017-10-12 23:54:44.131 -04:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.DiscoveryKeyEndpoint" for "/.well-known/openid-configuration/jwks"
+2017-10-12 23:54:44.134 -04:00 [Debug] Start key discovery request
+2017-10-12 23:55:05.516 -04:00 [Information] Clearing 0 tokens
+2017-10-12 23:55:35.527 -04:00 [Information] Clearing 0 tokens
+2017-10-12 23:56:05.537 -04:00 [Information] Clearing 0 tokens
+2017-10-12 23:56:22.070 -04:00 [Debug] Using "Identity.Application" as default scheme for authentication
+2017-10-12 23:56:22.123 -04:00 [Debug] Using "Identity.External" as default scheme for sign-in
+2017-10-12 23:56:22.124 -04:00 [Debug] Using "Identity.External" as default scheme for sign-out
+2017-10-12 23:56:22.124 -04:00 [Debug] Using "Identity.Application" as default scheme for challenge
+2017-10-12 23:56:22.124 -04:00 [Debug] Using "Identity.Application" as default scheme for forbid
+2017-10-12 23:56:22.766 -04:00 [Debug] Starting token cleanup
+2017-10-12 23:56:22.997 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-12 23:56:23.016 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-12 23:56:36.861 -04:00 [Debug] Request path "/.well-known/openid-configuration" matched to endpoint type "Discovery"
+2017-10-12 23:56:36.866 -04:00 [Debug] Endpoint enabled: "Discovery", successfully created handler: "IdentityServer4.Endpoints.DiscoveryEndpoint"
+2017-10-12 23:56:36.866 -04:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.DiscoveryEndpoint" for "/.well-known/openid-configuration"
+2017-10-12 23:56:36.871 -04:00 [Debug] Start discovery request
+2017-10-12 23:56:37.494 -04:00 [Debug] Found ["openid", "profile", "email", "api1"] as all scopes in database
+2017-10-12 23:56:37.668 -04:00 [Debug] Request path "/.well-known/openid-configuration/jwks" matched to endpoint type "Discovery"
+2017-10-12 23:56:37.669 -04:00 [Debug] Endpoint enabled: "Discovery", successfully created handler: "IdentityServer4.Endpoints.DiscoveryKeyEndpoint"
+2017-10-12 23:56:37.669 -04:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.DiscoveryKeyEndpoint" for "/.well-known/openid-configuration/jwks"
+2017-10-12 23:56:37.673 -04:00 [Debug] Start key discovery request
+2017-10-12 23:56:52.795 -04:00 [Information] Clearing 0 tokens
+2017-10-12 23:56:59.123 -04:00 [Debug] Request path "/connect/token" matched to endpoint type "Token"
+2017-10-12 23:56:59.128 -04:00 [Debug] Endpoint enabled: "Token", successfully created handler: "IdentityServer4.Endpoints.TokenEndpoint"
+2017-10-12 23:56:59.128 -04:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.TokenEndpoint" for "/connect/token"
+2017-10-12 23:56:59.136 -04:00 [Debug] Start token request.
+2017-10-12 23:56:59.142 -04:00 [Debug] Start client validation
+2017-10-12 23:56:59.146 -04:00 [Debug] Start parsing Basic Authentication secret
+2017-10-12 23:56:59.147 -04:00 [Debug] Parser found secret: "BasicAuthenticationSecretParser"
+2017-10-12 23:56:59.147 -04:00 [Debug] Secret id found: "mvc"
+2017-10-12 23:56:59.411 -04:00 [Debug] "mvc" found in database: True
+2017-10-12 23:56:59.419 -04:00 [Debug] Secret validator success: "HashedSharedSecretValidator"
+2017-10-12 23:56:59.419 -04:00 [Debug] Client validation success
+2017-10-12 23:56:59.437 -04:00 [Debug] Start token request validation
+2017-10-12 23:56:59.445 -04:00 [Debug] Start client credentials token request validation
+2017-10-12 23:56:59.475 -04:00 [Debug] Found [] identity scopes in database
+2017-10-12 23:56:59.552 -04:00 [Debug] Found ["api1"] API scopes in database
+2017-10-12 23:56:59.563 -04:00 [Debug] Found [] identity scopes in database
+2017-10-12 23:56:59.570 -04:00 [Debug] Found ["api1"] API scopes in database
+2017-10-12 23:56:59.573 -04:00 [Debug] "mvc" credentials token request validation success
+2017-10-12 23:56:59.581 -04:00 [Information] Token request validation success
+"{
+  \"ClientId\": \"mvc\",
+  \"ClientName\": \"MVC Client\",
+  \"GrantType\": \"client_credentials\",
+  \"Scopes\": \"api1\",
+  \"Raw\": {
+    \"grant_type\": \"client_credentials\",
+    \"scope\": \"api1\"
+  }
+}"
+2017-10-12 23:56:59.603 -04:00 [Debug] Getting claims for access token for client: "mvc"
+2017-10-12 23:56:59.637 -04:00 [Debug] Token request success.
+2017-10-12 23:57:22.821 -04:00 [Information] Clearing 0 tokens
