@@ -3,4 +3,4 @@
 This quickstart uses ASP.NET Identity for identity management.
 
 This sample extends Quickstart #6 to include ASP.Net Identity Role assignment during user registration.
-Role Claims is passed to WebApi resource with user token, WebAPI restricts Post operation to only Admin users.
+Role Claims are passed on to WebApi resource with-in user token; WebAPI further restricts POST operation to members of Admin roles.
